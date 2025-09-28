@@ -1,16 +1,61 @@
-# React + Vite
+# Time Tracking Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive time tracking dashboard built with React and Tailwind CSS, inspired by the Frontend Mentor challenge. This project allows users to view daily, weekly, and monthly reports for various activities, providing a clean and interactive user interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Responsive design for desktop and mobile
+- View time tracked for Work, Play, Study, Exercise, Social, and Self Care
+- Switch between daily, weekly, and monthly views
+- Modern UI with Tailwind CSS
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
 
-## Expanding the ESLint configuration
+- Node.js (v16 or higher recommended)
+- npm or yarn
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/MIKOXO/Time-tracking-dashboard.git
+   cd Time-tracking-dashboard
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+4. Open [http://localhost:5173](http://localhost:5173) to view the app in your browser.
+
+## Project Structure
+
+- `src/` - Main source code
+  - `App.jsx` - Main application component
+  - `assets/` - Images and icons
+  - `index.css` - Global styles
+  - `main.jsx` - Entry point
+- `public/` - Static assets
+- `index.html` - Main HTML file
+
+## Technologies Used
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+## Credits
+
+- Challenge by [Frontend Mentor](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw) for the challenge and design inspiration
+- Icons and images from the challenge assets
+
+- Coded by [MIKOXO](https://github.com/MIKOXO)
